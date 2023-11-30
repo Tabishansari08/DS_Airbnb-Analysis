@@ -8,7 +8,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-st.set_page_config(page_title="AirBnb-Analysis by PRITHIYUMAN A!!!", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="AirBnb-Analysis by Tabish Ansari!!!", page_icon=":bar_chart:", layout="wide")
 
 st.title(":bar_chart:   AirBnb-Analysis")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
@@ -144,13 +144,12 @@ if SELECT == "Explore Data":
 # ----------------------Contact---------------#
 
 if SELECT == "Contact":
-    Name = (f'{"Name :"}  {"PRITHIYUMAN A"}')
-    mail = (f'{"Mail :"}  {"aasaiprithi5@gmailcom"}')
-    description = "An Aspiring DATA-SCIENTIST..!"
+    Name = (f'{"Name :"}  {"Tabish Ansari"}')
+    mail = (f'{"Mail :"}  {"tabi.ansari@gmailcom"}')
+    description = "An enthusiastic DATA-SCIENTIST..!"
     social_media = {
 
-        "GITHUB": "https://github.com/PRITHIYUMAN/PRITHIYUMAN.git",
-        "LINKEDIN": "https://www.linkedin.com/in/prithiyuman-a-646332273/"}
+        "GITHUB": "https://github.com/Tabishansari08"}
 
     col1, col2 = st.columns(2)
     col1.image(Image.open("/content/IMG_20220926_191647.jpg"), width=300)
